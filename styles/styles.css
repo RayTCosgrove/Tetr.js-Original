@@ -1,0 +1,71 @@
+html, body {
+    display: inline;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245,235,204);
+  }
+
+.innerCol{
+    position: absolute;
+  top: 50%;
+  
+  margin-top: -8.1em; 
+    height: 270px;
+}
+
+#camFrame{
+    position: absolute;
+  top: 50%;
+  margin-top: -10em; 
+    margin-left: -5.1em;
+    height:365px;
+    width: 592px;
+}
+
+#canvasContainer{
+  
+}
+
+.outerCol{
+    position: relative;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+#score{
+    display: inline-block;
+}
+.gameInfo{
+    color:black;
+}
+
+#tetris{
+    background-color: rgba(255,255,255,0.3);
+    color: rgba(255,255,255,0.3);
+    box-shadow: 5px 5px 5px grey;
+}
+div{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    
+    
+}
+#defaultCanvas0{
+  margin-left: 101px;
+    margin-right: auto;
+    width:522px;
+    height:296px;
+    
+}
+
+canvas{
+    display: inline;
+    margin:0 auto;
+    
+}  
