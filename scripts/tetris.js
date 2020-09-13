@@ -365,4 +365,11 @@ function drop() {
     }
 }
 
-drop();
+$(document).ready(function(){
+    $("#instructionsModal").modal('show');
+});
+
+$('#instructionsModal').on('hidden.bs.modal', function () {
+    drop();
+});
+
